@@ -8,7 +8,7 @@ In question-answering systems, creating effective embeddings for both questions 
 
 ## Model Architecture
 
-The project employs Siamese encoders, where each encoder is a neural network (e.g., LSTM, GRU, or Transformer-based models like BERT) that processes either the question or the answer. The two encoders share weights and are optimized together using contrastive loss.
+The project employs Siamese encoders, where each encoder is a neural transformer encoder network that processes either the question or the answer. The two encoders share weights and are optimized together using contrastive loss by implementing cross entropy loss.
 
 ### Key Components
 - **Siamese Encoders**: Identical encoders for questions and answers, sharing weights to produce comparable embeddings.
